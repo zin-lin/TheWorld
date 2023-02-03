@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class MongoIntegration {
     public static void integrate(){
-        MongoClient mongoClient = new MongoClient("localhost", 27000); //Get the Client read, exposed at 270000 Mongo-reserved
+        MongoClient mongoClient = new MongoClient("mongodbserver"); //Get the Client read, exposed at 270000 Mongo-reserved
         // Get a database - will create when we use it
         MongoDatabase database = mongoClient.getDatabase("mydb");
         // Get a collection from the database, will set up not exists/#ifndef->define
