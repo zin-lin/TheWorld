@@ -29,6 +29,7 @@ public class SqlConnection {
                 Thread.sleep(30000);
                 // Connect to database
                 con = DriverManager.getConnection("jdbc:mysql://db:3306/employees?useSSL=false", "root", "example");
+                //jdbc:mysql://db:3306/employees?useSSL=false is basically the other docker address on the bridge
                 System.out.println("Successfully connected");
                 // Wait a bit
                 Thread.sleep(10000);
