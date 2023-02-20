@@ -12,6 +12,7 @@ public class Application {
         for (Employee employee: emp)
             System.out.println(employee);
         // Disconnect from database
+
         sqlConnection.disconnect();
 
     }
