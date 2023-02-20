@@ -11,8 +11,8 @@ public class Application {
         // Display results
         for (Employee employee: emp)
             System.out.println(employee);
-
         // Disconnect from database
         sqlConnection.disconnect();
+
     }
 }
