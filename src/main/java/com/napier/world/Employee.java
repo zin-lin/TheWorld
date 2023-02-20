@@ -44,4 +44,9 @@ public class Employee
      */
     public String manager;
 
+    @Override
+    public String toString () {
+        return "name: " + first_name + " " + last_name + " salaries: " + salary;
+    }
+
 }
